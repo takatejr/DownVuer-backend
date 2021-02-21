@@ -7,6 +7,5 @@
     # Node
     # Express
 
-
 ## Run
-    node server.js
+    npm start
