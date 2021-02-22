@@ -2,6 +2,8 @@ import path from "path";
 import fs from "fs";
 import youtubedl from "youtube-dl";
 
+const datas = []
+
 const playlistDownload = async (req, res) => {
   const url = req.body.url;
 
@@ -34,7 +36,7 @@ const playlistDownload = async (req, res) => {
   };
 
   try {
-    playlist(url);
+    playlist(url); 
   } catch (err) {
     console.log(err)
   }

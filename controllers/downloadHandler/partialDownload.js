@@ -38,6 +38,7 @@ const partialDownload = async (req, res) => {
           link: `${code}`,
           ext: ext,
         });
+        
         console.log(" ");
         console.log(" ");
       } catch (error) {
